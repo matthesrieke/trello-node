@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script  type="text/javascript">
+            $( document ).ready(function() {
+                $.ajax( {
+                    url:"${CARD_URL}",
+                    type: "GET",
+                    crossDomain: true,
+                    headers: {'X-Cookiely': 'dsc=0f0f4d24ba12e6f33c792f4725d6f72566319724048ce14d7f8f20aa148aeb52; landing=New%20Landing; __qca=P0-2036957083-1449096899610; token=527a06b39e7140284000283b%2FuV3HT92mJEmVEDOlVH0bKwWcIKxzjNoSecNPZ7hX9UjTM5ZzG7bWVyRTT2wb86zS; hasAccount=password; sup=1; mab=527a06b39e7140284000283b; lang=en-US; _ga=GA1.2.1322800517.1449096899; _sp_id.dc4d=09b4c278d52362b3.1449096900.2.1449132742.1449097196; _sp_ses.dc4d=*'}
+                }, function( data ) {
+                    alert( "Load was performed: "+ JSON.stringify(data) );
+                });
+            });
+            
+        </script>
+    </head>
+    <body>
+        <h1>Redirecting to print page...</h1>
+    </body>
+</html>

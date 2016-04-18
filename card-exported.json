@@ -1,0 +1,80 @@
+{
+
+    "badges": {
+        "attachments": 0,
+        "checkItems": 1,
+        "checkItemsChecked": 0,
+        "comments": 0,
+        "description": true,
+        "due": null,
+        "fogbugz": "",
+        "subscribed": false,
+        "viewingMemberVoted": false,
+        "votes": 0
+    },
+    "checkItemStates": [],
+    "checklists": [
+        {
+            "checkItems": [
+                {
+                    "id": "a",
+                    "name": "`Logs` -> `Log Filter`, `Age`, `Source` (service or server), `Machine` --> `Query`",
+                    "nameData": null,
+                    "pos": 16708,
+                    "state": "incomplete"
+                }
+            ],
+            "id": "a",
+            "idBoard": "a",
+            "idCard": "a",
+            "name": "Checklist",
+            "pos": 16384
+        }
+    ],
+    "closed": false,
+    "dateLastActivity": "2015-12-01T13:30:34.082Z",
+    "desc": "# Columns\n\nCan adjust colums: activate `time elapsed` to identify not-performant requests.\n\nOther columns:\n\n* user name\n* thread\n* method\n\n# Settings\n\n* adjust the Level of logging\n* expiration time of logs\n* target log file\n\n# API\n\nUse python to pull out interesting data (e.g. extents of map service requests via low level log message string parsing). API endpoint: `/arcgis/admin/logs/query`",
+    "descData": {
+        "emoji": {}
+    },
+    "due": null,
+    "email": "sad@asd.de",
+    "id": "a",
+    "idAttachmentCover": null,
+    "idBoard": "a",
+    "idChecklists": [
+        "a"
+    ],
+    "idLabels": [
+        "a",
+        "a"
+    ],
+    "idList": "a",
+    "idMembers": [],
+    "idMembersVoted": [],
+    "idShort": 41,
+    "labels": [
+        {
+            "color": "green",
+            "id": "a",
+            "idBoard": "a",
+            "name": "",
+            "uses": 10
+        },
+        {
+            "color": "yellow",
+            "id": "a",
+            "idBoard": "a",
+            "name": "",
+            "uses": 45
+        }
+    ],
+    "manualCoverAttachment": false,
+    "members": [],
+    "name": "Explain how to use ArcGIS Server logs to troubleshoot issues",
+    "pos": 327679,
+    "shortLink": "2nWsIV7D",
+    "shortUrl": "https://trello.com/c/2nWsIV7D",
+    "subscribed": false,
+    "url": "https://trello.com/c/2nWsIV7D/41-explain-how-to-use-arcgis-server-logs-to-troubleshoot-issues"
+}

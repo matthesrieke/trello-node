@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+
+div.description h1 {
+    font-size: 1.2em;
+}
+
+div.description h2, div.description h3 {
+    font-size: 1.1em;
+}
